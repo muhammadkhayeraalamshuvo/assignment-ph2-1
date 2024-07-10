@@ -11,7 +11,7 @@ body{
     border: 2px solid red;
     width: 100%;
     height: 600px;
-    background-image: url('./style/assets/Hero-bg.png');
+    background-image: url('../assets/hero-bg.png');
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
