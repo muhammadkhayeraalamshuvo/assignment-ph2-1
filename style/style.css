@@ -8,7 +8,6 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 .banner-section-container{
-    border: 2px solid red;
     width: 100%;
     height: 600px;
     background-image: url('../assets/hero-bg.png');
