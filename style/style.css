@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+.banner-section-container{
+    border: 2px solid red;
+    width: 100%;
+    height: 600px;
+    background-image: url('./style/assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.banner-para{
+    text-align: center;
+    margin-left: 20px;
+}
+.banner-items
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.a-1
+{   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.box-parent{
+    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.box
+{
+    width: 80%;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    border: 2px solid white;
+    box-shadow: 5px 10px 8px #888888;
+}
+.box-2{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: 40px;
+    border: 2px solid white;
+    box-shadow: 5px 10px 8px #888888;
+}
+.box-about
+{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.my-inspiration{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.parent{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 30px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+.css
+{
+    background-color: #004CE80D;
+}
+.js
+{
+    background-color: #FFDF000D;
+}
+.html{
+    background-color: #FF4C1E0D;
+}
+.learn
+{
+    color: black;
+}
+
+/* support */
+.support{
+    margin-top: 50px;
+    position: relative;
+    /* border: 2px solid red; */
+   
+    
+}
+.image{
+    margin-left: 60px;
+    height: 300px;
+}
+.image img{
+   
+    width: 1200px;
+    height: 100%;
+    object-fit: cover;
+}
+.form
+{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+/*    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.next-target-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    border: 2px solid black; border-radius: 10px;
+    margin: 0 40px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
